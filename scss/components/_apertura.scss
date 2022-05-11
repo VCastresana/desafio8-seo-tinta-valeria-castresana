@@ -1,0 +1,106 @@
+.main{
+    min-width: 100vw;
+}
+
+.body-barras{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: -80px;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 997;
+}
+.body-barra1{
+    background-color: $color3;
+    height: 150px;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
+.body-barra2{
+    background-color: $color2;
+    height: 150px;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
+.body-barra3{
+    background-color: $color1;
+    height: 150px;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
+.body-titulo-apertura1{
+    font-size: 80px;
+    font-family: $font;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    color: $color1;
+    animation-name: apertura-linea1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes apertura-linea1{
+    0%   {color: $color3;}
+    50%  {color: $color2;}
+    100% {color: $color1;}
+}
+.body-titulo-apertura2{
+    font-size: 80px;
+    font-family: $font;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -20px;
+    color: $color1;
+    animation-name: apertura-linea2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes apertura-linea2{
+    0%   {color: $color3;}
+    50%  {color: $color2;}
+    100% {color: $color1;}
+}
+.body-texto-apertura{
+    font-size: 25px;
+    font-family: $font;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.body-texto-apertura-bold{
+    font-size: 25px;
+    font-family: $font;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.cuerpo-barra{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.cuerpo-barra1{
+    background-color: $color3;
+    height: 20px;
+    width: 33vw;
+}
+.cuerpo-barra2{
+    background-color: $color2;
+    height: 20px;
+    width: 34vw;
+}
+.cuerpo-barra3{
+    background-color: $color1;
+    height: 20px;
+    width: 33vw;
+}
+

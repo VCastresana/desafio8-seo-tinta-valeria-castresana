@@ -1,0 +1,42 @@
+
+$color1: #920605;
+$color2: #f5a051;
+$color3: #f0e3a5;
+$font: 'Kumbh Sans', sans-serif;
+
+$cuerpo-secciones:(
+    desktop: 50px,
+    tablet: 40px,
+    mobile: 30px,
+);
+
+%secciones {
+    text-align: center;
+    font-family: $font;
+    font-size: map-get($cuerpo-secciones, desktop);
+    font-weight: 400;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: $color1;
+    padding-top: 70px;
+    position: relative;
+};
+
+%textos-paginas{
+    font-family: $font;
+    font-size: 16px;
+    font-weight: 400;
+    color:#000;
+};
+
+@mixin modelo-remeras($font-size, $margin-top, $margin-bottom) {
+    font-family: $font ;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    font-size: $font-size;
+};
+
+

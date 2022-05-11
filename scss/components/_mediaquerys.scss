@@ -1,0 +1,199 @@
+@media only screen and (max-width: 900px) {
+    .header{
+        height: 152px;
+
+        &-logo{
+            width: 20vw;
+        }
+    }
+    h2{
+        font-size: map-get($cuerpo-secciones, tablet); 
+    }
+    .footer{
+        height: 750px;   
+        
+        &-logosRedes{
+            width: 5vw;
+        }
+        &-logosContacto{
+            width: 3vw;
+        }
+        &-logos{
+            width: 4vw;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .textos-informacion {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .foto-remera{
+        width: 90%;
+    }
+    .modeloremera{
+        @include modelo-remeras(12px, 8px, 3px);
+    }
+    .precio{
+        font-size: 16px;
+    }
+    .pagos{
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .tablaTalles{
+        width: 25vw;
+    }
+    .talles-textos{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .talles-textos2{
+        font-size: 14px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .tablaTallesRosa{
+        width: 46vw;
+        margin-left: -90px;
+    }
+    .titulo-apertura1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .titulo-apertura2{
+        font-size: 50px;
+        margin-top: -10px;
+    }
+    .texto-apertura{
+        font-size: 18px;
+    }
+    .boton{
+        font-size: 14px;
+    }
+    .formulario{
+        width: 90vw;
+        margin-left: 0;
+        padding-left: 0px;
+    }
+    .textos-contacto{
+        width: 90vw;
+        margin-left: 0;
+        padding-left: 0px;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .header{
+        height: 78px!important;
+
+        &-logo{
+            width: 30vw;
+            margin-top: 0px;
+        }
+    }
+    .footer{
+        min-width: 100vw;
+        
+        &-redes{
+            font-size: 10px;
+            margin-top: 40px;
+        }
+        &-logos{
+            width: 6vw;
+        }
+        &-logosRedes{
+            width: 8vw;
+        }
+        &-logosContacto{
+            width: 6vw;
+        }
+    }
+
+    .body-barra1{
+        height: 150px;
+    }
+    .body-barra2{
+        height: 150px;
+    }
+    .body-barra3{
+        height: 150px;
+    }
+    .body-barras{
+        margin-top: -80px;
+        margin-bottom: 0;
+    }
+
+    h2{
+        font-size: map-get($cuerpo-secciones, mobile); 
+        margin-bottom: 0;
+    }
+    .textos-informacion {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 30px;
+    }
+    .foto-remera{
+        width: 70%;
+    }
+    .modeloremera{
+        @include modelo-remeras(14px, 8px, 3px);
+    }
+    .precio{
+        font-size: 18px;
+    }
+    .pagos{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .productos-mas{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .tablaTalles{
+        width: 60vw;
+        margin: auto;
+        text-align: center;
+        margin-left: 90px;
+    }
+    .talles-textos{
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .talles-textos2{
+        font-size: 14px;
+        margin-left: 25px;
+        margin-right: 30px;
+    }
+    .tablaTallesRosa{
+        width: 90vw;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .textos-contacto{
+        font-size: 14px;
+    }
+    .body-titulo-apertura1{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    .body-titulo-apertura2{
+        font-size: 50px;
+        margin-top: -10px;
+    }
+    .body-texto-apertura{
+        font-size: 20px;
+    } 
+    .body-texto-apertura-bold{
+        font-size: 20px;
+        margin-top: -10px;
+    } 
+    .boton{
+        font-size: 12px;
+    }
+
+}

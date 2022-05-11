@@ -1,0 +1,30 @@
+.foto-remera{
+    width: 90%;
+}
+.modeloremera{
+    @include modelo-remeras(15px, 10px, 5px);
+}
+.precio{
+    font-size: 20px;
+    font-family: $font;
+    font-weight: 700;
+    color: $color1;
+    text-transform: uppercase;
+}
+.pagos{
+    font-size: 12px;
+    font-family: $font ;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.productos-mas{
+    font-size: 18px;
+    font-family: $font;
+    font-weight: 400;
+    color: $color1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}

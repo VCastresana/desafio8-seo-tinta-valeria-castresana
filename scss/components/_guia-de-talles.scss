@@ -1,0 +1,20 @@
+.talles-textos{
+    @extend %textos-paginas;
+}
+.talles-textos2{
+    font-family:$font ;
+    font-weight: 400;
+    color:#000;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 130px;
+}
+.tablaTalles{
+    width: 25vw;
+    text-align: start;
+}
+.tablaTallesRosa{
+    width: 35vw;
+    margin-left: -20px;
+}
